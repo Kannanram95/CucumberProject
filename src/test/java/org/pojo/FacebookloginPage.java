@@ -18,6 +18,13 @@ public class FacebookloginPage extends BaseClass{
 	
 	@FindBy(name = "login")
 	private WebElement btnlogin;
+	
+	@FindBy(className = "_9ay7")
+	private WebElement txterror;
+	
+	public WebElement getTxterror() {
+		return txterror;
+	}
 
 	public WebElement getTxtemail() {
 		return txtemail;
